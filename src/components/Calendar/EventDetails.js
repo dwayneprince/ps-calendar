@@ -1,7 +1,7 @@
 import React from 'react';
 import { formatDate } from '../../utils';
 
-const EventDetails = ({ selectedEvent, onCloseDetails }) => {
+const EventDetails = ({ selectedEvent }) => {
   return (
     <div className={`grid  gap-4 col-span-7`}>
       <div className="relative">
@@ -37,12 +37,6 @@ const EventDetails = ({ selectedEvent, onCloseDetails }) => {
               Pre Order Now
             </a>
           </div>
-          {/* <button
-            className="bg-orange-600 text-white py-2 px-4 rounded mt-4"
-            onClick={onCloseDetails}
-          >
-            Close
-          </button> */}
         </div>
       </div>
     </div>

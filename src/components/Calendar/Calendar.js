@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import useFetch from '../../hooks/useFetch';
 import EventDetails from './EventDetails';
 import useCalendar from '../../hooks/useCalendar';
@@ -17,7 +17,7 @@ const Calendar = () => {
   const { year, month, goToPreviousMonth, goToNextMonth, updateUrl } =
     useCalendar(initialYear, initialMonth);
 
-  const apiUrl = `${process.env.PUBLIC_URL}/events.json`;
+  // const apiUrl = `${process.env.PUBLIC_URL}/events.json`;
   const url = 'https://amock.io/api/dwayneprinc/game-events';
   const { data: eventsData, loading, error } = useFetch(url);
 
