@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ps-calendar/static/css/main.9e33af24.css",
-    "main.js": "/ps-calendar/static/js/main.ee048213.js",
+    "main.js": "/ps-calendar/static/js/main.d16a501d.js",
     "static/js/787.ff0fbe15.chunk.js": "/ps-calendar/static/js/787.ff0fbe15.chunk.js",
     "index.html": "/ps-calendar/index.html",
     "main.9e33af24.css.map": "/ps-calendar/static/css/main.9e33af24.css.map",
-    "main.ee048213.js.map": "/ps-calendar/static/js/main.ee048213.js.map",
+    "main.d16a501d.js.map": "/ps-calendar/static/js/main.d16a501d.js.map",
     "787.ff0fbe15.chunk.js.map": "/ps-calendar/static/js/787.ff0fbe15.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e33af24.css",
-    "static/js/main.ee048213.js"
+    "static/js/main.d16a501d.js"
   ]
 }
