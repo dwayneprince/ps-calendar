@@ -7,9 +7,9 @@ const App = () => {
     <Router>
       <Routes>
         {/* <Route path="/:year/:month" Component={Calendar} /> */}
-        <Route path="/dwayneprince/ps-calendar.git/:year/:month" element={<Calendar />} />
+        <Route path="https://dwayneprince.github.io/ps-calendar/:year/:month" element={<Calendar />} />
 
-        <Route path="/*" element={<Navigate to="/dwayneprince/ps-calendar.git/2023/6" />} />
+        <Route path="/*" element={<Navigate to="https://dwayneprince.github.io/ps-calendar/2023/6" />} />
 
       </Routes>
     </Router>
