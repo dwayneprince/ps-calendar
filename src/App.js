@@ -4,7 +4,7 @@ import Calendar from './components/Calendar/Calendar';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/ps-calendar">
       <Routes>
 
         <Route path="/:year/:month" element={<Calendar />} />
